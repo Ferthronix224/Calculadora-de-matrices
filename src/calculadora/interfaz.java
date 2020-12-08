@@ -373,7 +373,7 @@ public class interfaz extends javax.swing.JFrame {
         int Acol = Integer.parseInt(txtAcolumna.getText());
         int Bfila = Integer.parseInt(txtBfila.getText());
         int Bcol = Integer.parseInt(txtBcolumna.getText());
-        if (Acol != Bfila) {
+        if (Acol != Bfila && Bcol != Afila) {
             JOptionPane.showMessageDialog(null, "La columna de A debe ser igual a fila de B");
         } else {
             genA(Afila, Acol);
