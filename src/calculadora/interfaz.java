@@ -1,5 +1,5 @@
 /*
- * @author Fernando
+ * @author Fernando.
  * Proyecto FInal Algebra Lineal
  * 
  */
